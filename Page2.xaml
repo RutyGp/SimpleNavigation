@@ -1,0 +1,18 @@
+﻿<Page x:Class="SimpleNavigation.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SimpleNavigation"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+
+    <Grid>
+        <TextBlock Text="Page 2" FontSize="60" Background="GreenYellow"/>
+        <TextBlock>
+      	            <Hyperlink  Click="Page3Click">Page3</Hyperlink>
+        </TextBlock>
+
+    </Grid>
+</Page>

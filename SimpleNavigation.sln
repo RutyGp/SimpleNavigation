@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleNavigation", "SimpleNavigation.csproj", "{4EE56CC1-4683-46DF-85F1-2737C4A9DF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TryApi", "..\TryApi\TryApi.csproj", "{D4475B00-D244-4C48-832D-B235E4DD3404}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EE56CC1-4683-46DF-85F1-2737C4A9DF0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE56CC1-4683-46DF-85F1-2737C4A9DF0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE56CC1-4683-46DF-85F1-2737C4A9DF0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE56CC1-4683-46DF-85F1-2737C4A9DF0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4475B00-D244-4C48-832D-B235E4DD3404}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4475B00-D244-4C48-832D-B235E4DD3404}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4475B00-D244-4C48-832D-B235E4DD3404}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4475B00-D244-4C48-832D-B235E4DD3404}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCBCFBA6-97DB-4F2D-89CA-D7F7B2A163CF}
+	EndGlobalSection
+EndGlobal
