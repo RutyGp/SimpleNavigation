@@ -26,11 +26,12 @@
             <TextBlock Margin="4,0,4,0">    |</TextBlock>
 
             <TextBlock>
-          <Hyperlink  Click="AnimalPage">AnimalPage</Hyperlink>
+                <Hyperlink  Click="AnimalPage">AnimalPage</Hyperlink>
             </TextBlock>
 
+            <ListBox x:Name="lb"/>
 
-            
+
         </StackPanel>
     </Grid>
 </Page>

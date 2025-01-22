@@ -11,5 +11,9 @@ namespace SimpleNavigation
         public string Name { get; set; }
         public int Weight { get; set; }
         public DateTime Birth { get; set; }
+        public override string ToString()
+        {
+            return $"{Name} its weight is : {Weight}. Was born in {Birth}";
+        }
     }
 }
