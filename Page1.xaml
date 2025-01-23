@@ -29,7 +29,7 @@
                 <Hyperlink  Click="AnimalPage">AnimalPage</Hyperlink>
             </TextBlock>
 
-            <ListBox x:Name="lb"/>
+            <ListBox x:Name="lb" Background="Orange"/>
 
 
         </StackPanel>
